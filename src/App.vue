@@ -69,9 +69,9 @@
         </div>
     </section>
 
-    <section class="my-5">
-      <h2 class="text-2xl font-semibold">Вторая секция</h2>
- 
+    <section class="container max-w-full my-20 p-10">
+      <h2 class="text-2xl font-semibold">Provide/Inject</h2>
+ <FormLogin/>
     </section>
   </div>
 </template>
@@ -79,6 +79,7 @@
 <script>
 import InputWrapper from './components/InputWrapper.vue';
 import ThemeSwitcher from './components/ThemeSwitcher.vue';
+import FormLogin from './components/Provide/FormLogin.vue';
 import Header from './components/Header.vue';
 import Textarea from './components/UI/Textarea.vue';
 import Select from './components/UI/Select.vue';
@@ -95,6 +96,7 @@ export default {
     Select,
     Button,
     Icon,
+    FormLogin,
   },
 
   methods: {
